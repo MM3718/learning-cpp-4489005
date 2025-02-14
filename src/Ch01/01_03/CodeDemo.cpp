@@ -7,9 +7,10 @@
 
 int main(){
     std::string str;
+    std::cout << "Enter your name:" << std::flush;
     std::cin >> str;
-    std::cout << str;
+    std::cout << "Nice to meet you, " << str << "!" << std::endl;
 
-    std::cout << std::endl << std::endl;
+    std::cout << std::endl << std::endl; // adds two blank lines at the end of the program’s output
     return (0);
 }
